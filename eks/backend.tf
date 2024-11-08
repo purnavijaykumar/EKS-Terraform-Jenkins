@@ -7,8 +7,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "vcube-130"
-    region         = "us-east-1"
+    bucket         = "madhu-125126"
+    region         = "us-west-2"
     key            = "eks/terraform.tfstate"
   }
 }
