@@ -7,11 +7,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-vcube-130"
-    region         = "us-east-2"
+    bucket         = "vcube-130"
+    region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
-    encrypt        = true
   }
 }
 
